@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Appliances</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="slider.js"></script>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<a href="index.html"><img src="images/logo/logo3.png" alt="logo"/></a>
+				</div>
+				<div class="col-sm-4">
+					<h2>APPLIANCE PLAZA</h2>
+				</div>
+				<div class="col-sm-4">
+					<div class="icons">
+						<a href="http://www.facebook.com"> <i class="fa fa-facebook"></i></a>
+						<a href="http://www.google+.com"> <i class="fa  fa-google-plus"></i></a>
+						<a href="http://www.instagram.com"> <i class="fa fa-instagram"></i></a>
+						<a href="http://www.linkedin.com"> <i class="fa fa-linkedin"></i></a>
+						<a href="http://www.twitter.com"> <i class="fa fa-twitter"></i></a>
+						<a href="http://www.youtube.com"> <i class="fa fa-youtube"></i></a>
+					</div><!--icons-->
+				</div>
+			</div><!--first row-->
+<!--menu-->
+			<ul class="nav nav-tabs">
+				<li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+				<li><a data-toggle="tab" href="#about">About</a></li>
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown">Products
+					<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Refrigerator</a></li>
+						<li><a href="#">Micro-Oven</a></li>
+						<li><a href="#">Dish Washer</a></li>
+					</ul>
+				</li>
+				<li><a data-toggle="tab" href="#">Blog</a></li>
+				<li><a data-toggle="tab" href="#">Contact</a></li>
+			</ul>
+		</div>
+<!-- index content -->
+		<div class="tab-content">
+			<div id="home" class="tab-pane fade in active">
+				<div class="container">
+					<div class="image">
+						<img class="myslides" src="images/slider/home1.jpg" > 
+						<img class="myslides" src="images/slider/home2.jpg">
+						<img class="myslides" src="images/slider/home3.jpg">
+					</div>
+					<div class="imgtext">
+						<button class="demo" onclick="plusDivs(-1)">❮ Prev</button>
+						<button class="demo" onclick="currentDiv(1)">1</button>
+						<button class="demo" onclick="currentDiv(2)">2</button>
+						<button class="demo" onclick="currentDiv(3)">3</button>
+						<button class="demo" onclick="plusDivs(1)">Next ❯</button>
+					</div>
+					<div class="tagtxt">
+						<h2>Better Equipment For Better Cooking. Appliance Plaza!</h2>
+					</div> 
+					
+					<input type="text" name="search" placeholder="Search..">
+					<div class="clear"></div>
+					<div class="row">
+						<div class="txt">
+							<div class="col-sm-4">
+								<p>Keeping your ingredients fresh is just as important as keeping your recipes. But condiments, chilled stocks, and others are more frequently-sought-for items that also need refrigeration. Into Cooking Space can go all your ingredients smart way. By keeping often-used items on the door-end of Dual Door-in-Door storage space, you no longer have to worry about cold air loss for the rest of stored items. </p>
+								<a data-toggle="tab" href="#about"><button>Info</button></a>
+							</div>
+							<div class="col-sm-4">
+								<p>It’s the most popular gathering spot in the house! Make it elegant and energy-efficient.Choose from a huge variety of gas and electric ovens and ranges, including the largest single oven in the industry. They’re more than ready for your most ambitious meals. Explore kitchen appliances designed to make cooking easy and life good.See how our appliances can help you create the home you’ve always wanted. </p>
+								<a data-toggle="tab" href="#about"><button>Info</button></a>
+							</div>
+							<div class="col-sm-4">
+								<p>Dish duty just got easier. Browse LG dishwashers with intuitive controls and TrueSteamTM that let you enter your desired settings with the touch of a finger.Boasting innovative features like Linear Compressor technology for optimum cooling, operating efficiency and reliability, to Easy Clean interiors for quick, high-performance cleaning in and out. Create the kitchen of your dreams today. </p>
+								<a data-toggle="tab" href="#about"><button>Info</button></a>
+							</div>
+						</div>
+					</div><br></br>
+					<div class="row">
+						<div class="txt">
+							<img src="images/dishwasher.jpg" align="left">
+							<p>Bosch dishwasher range: Perfected for Indian utensils.We know how all the Indian cooking methods are – Tadka, spices, Masalas, oil, and paste that leave the utensils oily and greasy. Various programmes in Bosch dishwashers clean all stubborn Masala stains and oily utensils including Kadhais, Chamach, delicate glass and microwave safe plastic, to make them sparkling clean. Bosch dishwasher range: Perfected for Indian utensils.
+							We know how all the Indian cooking methods are – Tadka, spices, Masalas, oil, and paste that leave the utensils oily and greasy. Various programmes in Bosch dishwashers clean all stubborn Masala stains and oily utensils including Kadhais, Chamach, delicate glass and microwave safe plastic, to make them sparkling clean. oily utensils including Kadhais, Chamach, delicate glass and microwave safe plastic, to make them sparkling clean.</p>
+						</div>
+						<div class="more">
+							<a data-toggle="tab" href="#about">Read More</a>
+							<a href="#" title="scroll up" class="scrollup">Scroll</a>
+						</div>
+					</div>
+				</div><!--container-->
+			</div>
+			<!-- about page -->
+			<div id="about" class="tab-pane fade">
+				<div class="container bg-2 text-center">
+					<h3 class="margin">About Us</h3>
+					<img src="images/about.jpg">
+					<p>At a time when brass was still considered a wonder metal, Late V.Murugesa Chettiar, found a golden opportunity in Stainless Steel.  Thus was born a pioneer. And a Group called ‘Butterfly’. That was five decades ago.</p>
+					<p>The Group was the first in India to introduce Stainless Steel Pressure Cookers, Stainless Steel LPG Stoves and Unbreakable Stainless Steel Vacuum Flasks; first to acquire the ISO-9001 Certificate of Registration for manufacture and supply of LPG Stoves, Domestic Electric Food Mixers and Table-Top Wet Grinders. Over the years, under the enterprising leadership of Late V. Murugesa Chettiar (Founder – Chairman) and his five sons, Butterfly has grown to be a household name among billions in India.</p>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- footer -->
+	<div class="container">
+		<footer>
+			<div class="row footer1 footertext">
+				<div class="col-sm-4">
+					<ul>
+						<li><a data-toggle="tab" href="#home">Home</a></li>
+						<li><a data-toggle="tab" href="#about">About</a></li>
+						<li>Blog</li>
+						<li>Contact</li>
+					</ul>
+				</div>
+				<div class="col-sm-4">
+					<div class="footertext">Copyright &copy;2016 - Designed by Meghavi</div>
+				</div>
+				<div class="col-sm-4 footer text">
+					<li><i class="fa fa-envelope"></i>&nbsp;test@gmail.com</li>
+					<li><i class="fa fa-phone"></i>&nbsp;123456789</li>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- java -->
+	<script>
+		myfunction();
+	</script>
+	<!-- scrollup -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$(window).scroll(function () {
+				if ($(this).scrollTop() > 100) {
+					$('.scrollup').fadeIn();
+				} 
+				else {
+							$('.scrollup').fadeOut();
+							}
+			});
+			$('.scrollup').click(function () {
+				$("html, body").animate({
+					scrollTop: 0
+					}, 600);
+						return false;
+				});
+			});
+	</script>
+</body>
+</html>
